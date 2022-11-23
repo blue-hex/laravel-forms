@@ -1,0 +1,54 @@
+{
+    "name": "blue-hex/laravel-forms",
+    "description": "Create forms dynamically with validation",
+    "keywords": [
+        "blue-hex",
+        "laravel-forms"
+    ],
+    "homepage": "https://github.com/blue-hex/laravel-forms",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Santosh Kshirsagar",
+            "email": "santosh.kshirsagar@bluehexsoftware.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BlueHex\\LaravelForms\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BlueHex\\LaravelForms\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BlueHex\\LaravelForms\\LaravelFormsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelForms": "BlueHex\\LaravelForms\\LaravelFormsFacade"
+            }
+        }
+    }
+}
