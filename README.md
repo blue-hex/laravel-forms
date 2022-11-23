@@ -1,10 +1,10 @@
-# Very short description of the package
+# Laravel Form - Build form dynamically with validation
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/blue-hex/laravel-forms.svg?style=flat-square)](https://packagist.org/packages/blue-hex/laravel-forms)
 [![Total Downloads](https://img.shields.io/packagist/dt/blue-hex/laravel-forms.svg?style=flat-square)](https://packagist.org/packages/blue-hex/laravel-forms)
 ![GitHub Actions](https://github.com/blue-hex/laravel-forms/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Using these package you will be able to create secure tailwind css forms
 
 ## Installation
 
@@ -40,7 +40,6 @@ If you discover any security related issues, please email santosh.kshirsagar@blu
 
 ## Credits
 
--   [Santosh Kshirsagar](https://github.com/blue-hex)
 -   [All Contributors](../../contributors)
 
 ## License
